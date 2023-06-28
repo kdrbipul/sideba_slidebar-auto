@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="dark">
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./image/logo.jpg" alt="logo">
+                </span>
+                <div class="text header-text">
+                    <span class="name">Codinglab</span>
+                    <span class="proffesion">Web Developer</span>
+                </div>
+            </div>
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class="bx bx-search icon"></i>
+                    <input type="search" placeholder="search...." class="search-box">
+                </li>
+                <div class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-bar-chart-alt icon"></i>
+                            <span class="text nav-text">Revenue</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-bell icon"></i>
+                            <span class="text nav-text">Notification</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-pie-chart-alt icon"></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-heart icon"></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-wallet icon"></i>
+                            <span class="text nav-text">Wallet</span>
+                        </a>
+                    </li>
+                    
+                </div>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class="bx bx-log-out icon"></i>
+                        <span class="text nav-text">Log Out</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class="bx bx-moon icon moon"></i>
+                        <i class="bx bx-sun icon sun"></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="text">
+            <div class="slideshow-container">
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 11</div>
+                  <img src="./image/animal.jpg" style="width:100%">
+                  <div class="text-2">Horse Ride</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 11</div>
+                  <img src="./image/children.jpg" style="width:100%">
+                  <div class="text-2">Children</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 11</div>
+                  <img src="./image/fire.jpg" style="width:100%">
+                  <div class="text-2">Fire</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 11</div>
+                  <img src="./image/flowers.jpg" style="width:100%">
+                  <div class="text-2">Flowers</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">5 / 11</div>
+                  <img src="./image/park.jpg" style="width:100%">
+                  <div class="text-2">Park</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">6 / 11</div>
+                  <img src="./image/pink.jpg" style="width:100%">
+                  <div class="text-2">Pink</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">7 / 11</div>
+                  <img src="./image/road.jpg" style="width:100%">
+                  <div class="text-2">Road</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">8 / 11</div>
+                  <img src="./image/sea.jpg" style="width:100%">
+                  <div class="text-2">Sea</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">9 / 11</div>
+                  <img src="./image/spring.jpg" style="width:100%">
+                  <div class="text-2">Spring</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">10 / 11</div>
+                  <img src="./image/woman-2.jpg" style="width:100%">
+                  <div class="text-2">Woman</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">11 / 11</div>
+                  <img src="./image/woman.jpg" style="width:100%">
+                  <div class="text-2">Woman</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+                <a class="next" onclick="plusSlides(1)"> ❯ </a>
+                
+            </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                  <span class="dot" onclick="currentSlide(7)"></span> 
+                  <span class="dot" onclick="currentSlide(8)"></span> 
+                  <span class="dot" onclick="currentSlide(9)"></span> 
+                  <span class="dot" onclick="currentSlide(10)"></span> 
+                  <span class="dot" onclick="currentSlide(11)"></span> 
+                </div> 
+              
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
